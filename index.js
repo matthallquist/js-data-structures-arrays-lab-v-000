@@ -28,11 +28,11 @@ function prependDriver(name) {
 }
 
 function removeLastDriver(name) {
-  newArray = drivers.slice(0,-1)
+  newArray = drivers.slice(0,-1);
   return newArray;
 }
 
 function removefirstDriver(name) {
-  newArray = drivers.slice(1)
+  newArray = drivers.slice(1,-1);
   return newArray;
 }
