@@ -32,7 +32,7 @@ function removeLastDriver() {
   return newArray;
 }
 
-function removefirstDriver() {
+function removeFirstDriver() {
   newArray = drivers.shift();
   return newArray;
 }
